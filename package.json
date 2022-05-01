@@ -2,13 +2,13 @@
   "name": "3nv",
   "version": "2.0.3",
   "description": ".env toolbox",
-  "main": "index.js",
+  "main": "lib/index.ts",
   "scripts": {
     "test": "jest",
     "build": "rimraf lib && tsc"
   },
   "bin": {
-    "3nv": "./3nv.js"
+    "3nv": "./bin/3nv"
   },
   "author": "Filipp Vasilev <hi.ampa1r@gmail.com>",
   "license": "MIT",
