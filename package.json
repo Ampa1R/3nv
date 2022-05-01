@@ -7,6 +7,9 @@
     "test": "jest",
     "build": "rimraf lib && tsc"
   },
+  "bin": {
+    "3nv": "./bin/3nv.js"
+  },
   "author": "Filipp Vasilev <hi.ampa1r@gmail.com>",
   "license": "MIT",
   "repository": {
