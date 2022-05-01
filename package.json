@@ -2,7 +2,7 @@
   "name": "3nv",
   "version": "2.0.6",
   "description": ".env toolbox",
-  "main": "lib/index.ts",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "build": "rimraf lib && tsc"
