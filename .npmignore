@@ -31,5 +31,3 @@ tsconfig.json
 .eslintrc
 setup.sh
 tsconfig.tsbuildinfo
-
-src
