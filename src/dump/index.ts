@@ -1,7 +1,7 @@
 import { writeFileSync } from "fs";
 import { read } from "../read";
 
-export const dump = (path = '.env', examplePath = '.env.example') => {
+export const dump = (path: string = '.env', examplePath: string = '.env.example') => {
   const data = read(path);
   const formattedData = Object.entries(data).map(([k, v]) => `${k}=`).join('\n')
   writeFileSync(examplePath, formattedData)

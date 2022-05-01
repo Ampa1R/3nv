@@ -1,8 +1,9 @@
 import { Command } from 'commander';
 import { dump } from '../dump';
+import { log } from '../log';
 
-export const execDump = (source: string, destination: string) => {
-  console.log({ source, destination });
+export const execDump = (source = '.env', destination = '.env.example') => {
+  log(`Copying ${source} to ${destination}`);
   dump(source, destination);
 };
 
